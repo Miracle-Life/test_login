@@ -1,0 +1,23 @@
+:host {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1.title {
+  padding: 0 0 6px 65px;
+  color: aliceblue;
+}
+.nav-item a{
+  color: aquamarine;
+  font-size: 24px;
+}
+
+.container-fluid{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -10;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,116,1) 59%, rgba(0,212,255,1) 100%);
+}
