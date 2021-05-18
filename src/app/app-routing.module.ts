@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from "./admin/home/home.component";
+import {HomeComponent} from './admin/home/home.component';
+
 
 
 @NgModule({
     imports: [RouterModule.forRoot([
   {
-    path: "",
-    redirectTo: "home",
-    pathMatch: "full"
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full'
   },
-  { path: "home", component: HomeComponent },
+  { path: 'home', component: HomeComponent },
 ])],
   exports: [RouterModule] // делаем re-export модуля для использования директив при маршрутизации
 })
