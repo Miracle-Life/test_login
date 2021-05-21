@@ -27,7 +27,7 @@ export class LoginComponent  {
       if (this.authService.isLoggedIn) {
         // Получение строки для перенаправления от сервиса
         // если строки нет перенаправляем на страницу по умолчнанию
-        let redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/admin';
+        let redirect = this.authService.redirectUrl ? this.authService.redirectUrl : '/home';
         // перенапраление пользователя
         this.router.navigate([redirect]);
       }

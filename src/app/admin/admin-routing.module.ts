@@ -8,7 +8,7 @@ import {AuthGuard} from '../shared/auth-guard.service';
   imports: [
     RouterModule.forChild([
       {
-        path: 'admin',
+        path: 'home',
         component: HomeComponent,
         canActivate: [AuthGuard],
       }
